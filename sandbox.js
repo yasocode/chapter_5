@@ -13,12 +13,32 @@
 //         console.log("the user has logged out");
 //     },
 //     logBlogs: function(){
-
+//         console.log("this user has written the following blogs:");
+//         this.blogs.forEach(blog => {
+//         console.log(blog);
+//         })
 //     }
 // };
 
-// user.login();
-// user.logout();
+// user.logBlogs();
+// console.log(this);
 
-// const name = "seslüban";
-// name.toUpperCase();
+//math objects
+
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
+
+// const area = 7.7;
+
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+// console.log(Math.ceil(area));
+// console.log(Math.trunc(area));
+
+// //random numbers
+
+// const random = Math.random();
+
+// console.log(random);
+// console.log(Math.round(random*100));
